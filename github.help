@@ -1,0 +1,27 @@
+git:
+	a distributed version control system(free software).
+
+usage:
+	git status:
+		it allows us to keep in mind the current state f the warehouse.
+	git diff filename
+		View file differences
+	git add file
+		add a afile to a library
+	git commit -m "XXX"
+		submit
+	git log
+		view file history
+	git reset -- hard HEAD^
+		retrospective version
+	git checkout -- filename
+		Undo all the files in the workspace
+	git reset HEAD filename
+		unstage
+	git rm filename
+		remove file
+	git remote add origin git@github.com:username/libraryname.git
+		
+	git push origin master
+		push the latest modification of the local master branch to Github
+	
